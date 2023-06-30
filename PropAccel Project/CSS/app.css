@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container-fluid{
+    background-color: rgb(169, 198, 224);
+    padding: 0 200px !important ;
+}
+.navbar{
+    margin-bottom: 20px;
+}
+.navcomponents a{
+  padding: 20px;  
+  text-decoration: none;
+}
+.podocast{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.signup,.absimg{
+    width: 50%;
+}
+.gd1,.gd2{
+    border-radius: 7px;
+}
+.gd1{
+    position: absolute;
+    width: 25%;
+    height: 30%;
+    right: 250px;
+}
+.gd2{
+    position: relative;
+    top: 50px; 
+    width: 60%;
+    left: 30px;
+}
+.aboutcourse{
+    display: flex;
+    margin-top: 100px;
+}
+.intrfeatures{
+    display: grid;
+    grid-template-columns:1fr 1fr ;
+    grid-gap: 10px;
+}
+.foursessions{
+    padding: 20px;
+    height: 50px;
+}
+.aboutcrs{
+   display: flex;
+   flex-direction: column;
+   padding: 60px;
+}
+.explorebtn{
+    width: 30%;
+}
+.rel{
+    position: relative;
+    top: 30px;
+}
+.chooseplan{
+    text-align: center;
+    margin-top: 100px;
+}
+.chooseplan p{
+    width: 700px;
+    margin: 0 auto;
+}
+.plan{
+    display: flex;
+}
+.plan .card{
+    margin: 40px;
+    padding: 25px;
+}
+.freetrail{
+    border: 1px solid black !important;
+    width: 150px;
+}
+.subamount span{
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.review{
+    width: 400px;
+}
+.startednow{
+    text-align: center;
+    margin: 50px;
+}
+.startednow p{
+    width: 600px;
+    margin: 0 auto;
+}
+.getstartedbtn{
+    margin-top:50px ;
+}
+.footer , .terms{
+    display: flex;
+    justify-content: space-between;
+}
+.terms p{
+    margin: 0 15px;
+}
+.terms a{
+    margin: 0 5px;
+}
+.carousel-container{
+    background-color:rgb(169, 198, 224); 
+}
+.carousel-row {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+.carousel-card {
+    flex: 0 0 calc(33.33% - 10px);
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    text-align: center;
+    cursor: pointer;
+}
+.carousel-card:hover {
+    background-color: #eee;
+}
+.carousel-button {
+    margin-top: 10px;
+}
+#profilepic{
+    width: 100px;
+    border-radius:50% ;
+    float: left;
+    position: relative;
+    top: 15px;
+    left: 20px;
+}
+.profiledetails{
+    position: relative;
+    left: -100px;
+}
+.next-button{
+    padding: 20px;
+    position: absolute;
+    left: 90%;
+    top: 240% ;
+    border-radius: 50%;
+    opacity: 0.8;
+    border: 1px solid;
+}
+.prev-button{
+    padding: 20px;
+    position: absolute;
+    left: 0;
+    top: 240%;
+    border-radius: 50%;
+    opacity: 0.8;
+    border: 1px solid;
+}
+/* .footer,.startednow{
+    background-color:rgb(169, 198, 224); ;
+} */
